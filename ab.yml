@@ -2,6 +2,7 @@
  - name: display name
    hosts: all
    become: yes
+   become_method=sudo
    tasks:
    - name: to display my name
      debug: 
