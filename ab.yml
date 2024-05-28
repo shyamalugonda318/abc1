@@ -1,0 +1,9 @@
+---
+ - name: display name
+   hosts: all
+   become: yes
+   tasks:
+   - name: to display my name
+     debug: 
+       msg: "My name is Shyam"
+...
